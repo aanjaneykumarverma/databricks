@@ -191,6 +191,24 @@ print(my_name)
 
 # COMMAND ----------
 
+# MAGIC %run ./Includes/Classroom-Setup-01.2
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC SELECT * FROM delta.`${DA.paths.datasets}/nyctaxi-with-zipcodes/data`
+
+# COMMAND ----------
+
+print("Foo")
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC # This is a markdown cell
+
+# COMMAND ----------
+
 # DBTITLE 0,--i18n-1e11bea0-7be9-4df7-be4e-b525c625dfee
 # MAGIC %md
 # MAGIC
